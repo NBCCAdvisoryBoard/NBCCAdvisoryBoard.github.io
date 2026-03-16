@@ -1,0 +1,75 @@
+<!-- Language: HTML -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>North Bellevue Community Center Advisory Board</title>
+    <!-- Optional: Add some basic styling -->
+    <style>
+        :root{--bg:#f4f6f8;--card:#ffffff;--accent:#005a9c;--muted:#6b7280}
+        *{box-sizing:border-box}
+        html,body{height:100%}
+        body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background:var(--bg); color:#0f172a; margin:0}
+        .container{max-width:980px;margin:40px auto;padding:28px;background:var(--card);border-radius:12px;box-shadow:0 8px 24px rgba(16,24,40,0.08)}
+        .header{display:flex;align-items:center;gap:18px}
+        .logo{width:84px;height:84px;object-fit:contain;border-radius:8px}
+        h1{margin:0;font-size:1.375rem;color:var(--accent)}
+        .tagline{color:var(--muted);margin-top:6px;font-size:0.95rem}
+        .content{margin-top:20px}
+        .content p{line-height:1.65;margin:0 0 12px;color:#12263a}
+        a{color:var(--accent);text-decoration:none}
+        a:hover{text-decoration:underline}
+        .contact{margin-top:18px}
+        .footer{margin-top:28px;border-top:1px solid #eef2f6;padding-top:14px;color:var(--muted);font-size:0.9rem}
+        address{font-style:normal}
+        .events{margin-top:28px}
+        .events h3{margin:0 0 12px;color:#0f172a;font-size:1.125rem}
+        .event-card{background:#f8fafc;border:1px solid #e6eef6;padding:16px;border-radius:8px;display:flex;flex-direction:column;gap:8px}
+        .event-title{font-weight:700;color:#062f4f}
+        .event-meta{color:var(--muted);font-size:0.95rem}
+        .event-desc{color:#12263a}
+        .event-cta{margin-top:8px}
+        .btn{display:inline-block;padding:8px 12px;background:var(--accent);color:#fff;border-radius:6px;text-decoration:none;font-weight:600}
+        @media(max-width:600px){.container{margin:18px;padding:18px}.header{gap:12px}.logo{width:64px;height:64px}}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="NBCC_Transparant.png" alt="North Bellevue Community Center logo" class="logo">
+            <div>
+                <h1>North Bellevue Community Center Advisory Board</h1>
+                <div class="tagline">Supporting community programs, seniors, families, and the arts</div>
+            </div>
+        </header>
+
+        <main class="content">
+            <p>The North Bellevue Community Center offers an array of services for adults, especially seniors, and children of all ages. The center partners with community members to maintain independence, health, and well-being by providing support, referrals, activities, and learning opportunities.</p>
+            <p>Programs include health and wellness, cultural and performing arts, human services, drop-in activities, socialization, information and referrals, community dining, day trips and a wide array of fitness classes. The website for the center is <a href="https://bellevuewa.gov/city-government/departments/parks/community-centers/north-bellevue-community-center">bellevuewa.gov — North Bellevue Community Center</a>.</p>
+
+            <p>Members of the advisory board volunteer to help with special events, fundraising activities, and assist with programming. The advisory board is a 501(c)(3) organization (EIN 94-3157035).</p>
+
+            <div class="contact">
+                <address class="address">The center is located at: <i>4063 148th Avenue NE, Bellevue</i></address>
+                <div>The advisory board email contact: <a href="mailto:NBCCAdvisoryBoard@outlook.com"><i>NBCCAdvisoryBoard@outlook.com</i></a></div>
+            </div>
+        </main>
+
+        <section class="events" aria-labelledby="upcoming-events">
+            <h3 id="upcoming-events">Upcoming Events</h3>
+            <div class="event-card" role="article" aria-labelledby="event-1-title">
+                <div id="event-1-title" class="event-title">Family Bingo Night Fundraiser</div>
+                <div class="event-meta">4th Friday of each month — Begins April 24, 2026 · 7:00 PM · ~90 minutes</div>
+                <div class="event-desc">Join us for a family-friendly bingo night. Boards are $5 each; children must be at least 6 years old to attend. Bring friends and family for an evening of fun and fundraising.</div>
+                <!--
+                <div class="event-cta"><a class="btn" href="mailto:NBCCAdvisoryBoard@outlook.com?subject=RSVP%20for%20Bingo%20Night">RSVP / More Info</a></div>
+                -->
+            </div>
+        </section>
+
+        <footer class="footer">Information provided by the North Bellevue Community Center Advisory Board. For official facility details, see the <a href="https://bellevuewa.gov/city-government/departments/parks/community-centers/north-bellevue-community-center">City of Bellevue page</a>.</footer>
+    </div>
+</body>
+</html>
