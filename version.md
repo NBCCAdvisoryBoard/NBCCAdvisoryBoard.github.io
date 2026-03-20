@@ -1,14 +1,16 @@
 # Version History
 
 ## [Unreleased]
+
+## v0.0.3 - 2026-03-20
 ### Changed
 - Move style code to a seperate css file
 
-## [0.2] - 2026-03-19
+## v0.0.2 - 2026-03-19
 ### Removed
 - Unused files
 
-## [0.1] - 2026-03-17
+## v0.0.1 - 2026-03-17
 ### Added
 - Initial release - index page and logo png
 
