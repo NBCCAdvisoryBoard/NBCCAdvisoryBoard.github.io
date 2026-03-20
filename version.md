@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+## v0.0.4 - 2026-03-20
+### Changed
+- Make events dynamic from events.json
+
 ## v0.0.3 - 2026-03-20
 ### Changed
 - Move style code to a seperate css file
