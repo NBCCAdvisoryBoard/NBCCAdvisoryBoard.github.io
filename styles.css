@@ -21,9 +21,9 @@ body {
 }
 
 .container {
-    max-width: 980px;
+    max-width: 900px;
     margin: 40px auto;
-    padding: 28px;
+    padding: 40px;
     background: var(--card);
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(16, 24, 40, 0.08);
@@ -73,20 +73,12 @@ a:hover {
     text-decoration: underline;
 }
 
-.contact {
-    margin-top: 18px;
-}
-
 .footer {
     margin-top: 28px;
     border-top: 1px solid #eef2f6;
     padding-top: 14px;
     color: var(--muted);
     font-size: 0.9rem;
-}
-
-address {
-    font-style: normal;
 }
 
 .events {
@@ -121,20 +113,6 @@ address {
 
 .event-desc {
     color: #12263a;
-}
-
-.event-cta {
-    margin-top: 8px;
-}
-
-.btn {
-    display: inline-block;
-    padding: 8px 12px;
-    background: var(--accent);
-    color: #fff;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
 }
 
 @media (max-width: 600px) {
