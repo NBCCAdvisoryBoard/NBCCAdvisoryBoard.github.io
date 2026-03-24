@@ -1,6 +1,13 @@
 # Version History
 
-## [Unreleased]
+## v0.0.5 - 2026-03-24
+
+### Added
+- favicon
+
+### Changed
+- Logo resolution to 100px, 94% size reduction
+- empty line removal - css and html files 
 
 ## v0.0.4 - 2026-03-20
 ### Changed
